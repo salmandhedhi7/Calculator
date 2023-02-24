@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    background-color:#000000;
+    font-family: cursive;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    line-height: 0.2rem;
+    padding: 2rem;
+    width: 100%;
+    background-color: yellow;
+    color: #000000;
+    border-radius: 0px;
+    align-self: center;
+    position: sticky;
+}
+.box1{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+.box2{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+.calcubutton{
+    line-height: 26px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: #a7beae;
+    text-decoration: none;
+    display: block;
+    width: 10rem;
+    padding: 1rem;
+    text-align: center;
+    background-color:teal;
+}
+.calcubutton a{
+    text-decoration: none;
+    color: #000000;
+}
+.box1 a:hover{
+    background-color: Tan #e0a96d;
+    color: #fbf8be;
+    padding: 0.8rem;
+    border: #a7beae 1px;
+}
+.box2 a:hover{
+    background-color: Tan #e0a96d;
+    color: #fbf8be;
+    padding: 0.8rem;
+    border: #a7beae 1px;
+}
+.box1, .box2{
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0em;
+    justify-content: center;
+}
